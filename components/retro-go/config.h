@@ -16,6 +16,8 @@
 #include "targets/esplay-micro/config.h"
 #elif defined(RG_TARGET_ESP32_S3_DEVKIT)
 #include "targets/esp32-s3-devkit/config.h"
+#elif defined(RG_TARGET_es3c28p)
+#include "targets/es3c28p/config.h"
 #elif defined(RG_TARGET_FRI3D_2024)
 #include "targets/fri3d-2024/config.h"
 #elif defined(RG_TARGET_BYTEBOI_REV1)
@@ -39,7 +41,7 @@
 #endif
 
 #ifndef RG_PROJECT_NAME
-#define RG_PROJECT_NAME "Retro-Go"
+#define RG_PROJECT_NAME "Metos-Retro-Go"
 #endif
 
 #ifndef RG_PROJECT_WEBSITE
@@ -56,15 +58,15 @@
 #endif
 
 #ifndef RG_PROJECT_APP
-#define RG_PROJECT_APP "unknown"
+#define RG_PROJECT_APP "vscode"
 #endif
 
 #ifndef RG_PROJECT_VER
-#define RG_PROJECT_VER "unknown"
+#define RG_PROJECT_VER "alpha"
 #endif
 
 #ifndef RG_BUILD_INFO
-#define RG_BUILD_INFO "(none)"
+#define RG_BUILD_INFO "porting first time!"
 #endif
 
 #ifndef RG_BUILD_TIME
